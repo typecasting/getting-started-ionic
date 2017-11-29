@@ -3,11 +3,15 @@ jobs:
    build:
      docker:
        - image: circleci/node:latest
+     working_directory: ~/app
      steps:
        - checkout
        - run:
            name: Install Ionic deps
            command: sudo npm install -g cordova ionic
        - run:
+           name: NPM install
+           command: npm install
+       - run:
            name: Server ionic web
-           command: ionic help
+           command: ionic serve
