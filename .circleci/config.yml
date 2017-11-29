@@ -10,4 +10,4 @@ jobs:
            command: sudo npm install -g cordova ionic
        - run:
            name: Server ionic web
-           command: ionic serve
+           command: ionic help
