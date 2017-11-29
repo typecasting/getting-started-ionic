@@ -1,5 +1,6 @@
 {
   "name": "getting-started-ionic",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "e088051c",
+  "type": "ionic-angular",
+  "integrations": {}
 }
