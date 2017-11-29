@@ -2,5 +2,7 @@
   "name": "getting-started-ionic",
   "app_id": "e088051c",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
