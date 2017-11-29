@@ -7,4 +7,5 @@ jobs:
        - checkout
        - run:
          name: Install Ionic deps
-         command: npm install -g cordova ionic
+         command: |
+          npm install -g cordova ionic
