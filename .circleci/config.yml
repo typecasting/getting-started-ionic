@@ -14,4 +14,4 @@ jobs:
            command: npm install
        - run:
            name: Server ionic web
-           command: ionic serve
+           command: ionic build
